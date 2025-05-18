@@ -1,0 +1,16 @@
+with(movil){instance_destroy();}
+with(camara){instance_destroy();}
+with(mouse){instance_destroy();}
+with(opciones){instance_destroy();}
+with(huesos){instance_destroy();}
+with(flecha1){instance_destroy();}
+with(flecha2){instance_destroy();}
+with(alerta){instance_destroy();}
+with(duda){instance_destroy();}
+with(cura){instance_destroy();}
+control.mision=0;
+control.nivel=0;
+control.acumulado=0;
+control.dificultad=0;
+if(control.parlante=2){sound_loop(snd_fondo0);}
+creaunidad_inicio();
